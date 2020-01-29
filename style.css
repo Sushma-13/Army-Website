@@ -1,0 +1,21 @@
+.navbar-brand {
+    color: white;
+}
+
+.carousel-inner>.carousel-item>img {
+    height: 60vh;
+}
+
+.card-deck>.card,
+.card img {
+    width: 10rem;
+}
+
+.card-deck>.card p {
+    font-size: 10px;
+}
+
+.card-deck>.card {
+    background-color: #35444B;
+    color: white;
+}
