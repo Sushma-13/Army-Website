@@ -1,5 +1,6 @@
-.carousel-inner>.carousel-item>img {
-    height: 90vh;
+.nav {
+    z-index: 99;
+    background-color: transparent;
 }
 
 .card-deck>.card,
@@ -24,15 +25,30 @@
     opacity: 0.7;
 }
 
-.txt {
-    color: white;
+.carousel-inner>.carousel-item>img {
+    height: 90vh;
 }
 
 .carousel {
     margin-top: -55px;
 }
 
-.nav {
-    z-index: 99;
-    background-color: transparent;
+.txt {
+    color: white;
+}
+
+.carousel>.carousel-inner>.carousel-item>.carousel-caption>.whatsNew {
+    color: white;
+    width: 15rem;
+    height: 5rem;
+    font-size: 30px;
+    border-color: white;
+    margin-bottom: 200px;
+}
+
+.carousel>.carousel-inner>.carousel-item>.carousel-caption>button:hover {
+    color: aliceblue;
+    width: 16rem;
+    height: 5rem;
+    font-size: 35px;
 }
